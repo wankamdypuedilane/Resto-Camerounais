@@ -1,0 +1,62 @@
+/*  Requête média uniquement nécessaire sur l'éditeur en ligne : */
+@media (max-width: 500px) {
+  /* header styles for mobile */
+  .header nav h1 {
+    float: none;
+    text-align: center;
+  }
+
+  .header nav ul {
+    float: none;
+  }
+
+  .header nav ul li {
+    float: none;
+  }
+
+  .header nav ul li a {
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* vp styles for mobile */
+  .vp-content {
+    padding-top: 50px;
+  }
+
+  .vp-content h1 {
+    font-size: 2rem;
+  }
+
+  /* features styles for mobile */
+  .feature {
+    float: none;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  /* where styles for mobile */
+  .where {
+    padding: 80px 20px 50px 20px;
+    overflow: auto;
+  }
+
+  .where-image {
+    float: none;
+    display: block;
+    width: 80%;
+    border: 0px;
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+
+  .where-text {
+    float: none;
+    width: 100%;
+  }
+
+  /* contact styles for mobile */
+  .contact {
+    padding: 50px 0px;
+  }
+}
